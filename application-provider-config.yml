@@ -9,9 +9,9 @@ spring:
   profiles: dev
   # 指定当前微服务对外暴露的名称
   application:
-    name: abcmsc-provider-depart
+    name: depart-provider
 
-  # 配置spring-data-jpa
+  # 配置spring-data-jpadepart-provider
   jpa:
     # 指定是否在Spring容器启动时创建表，默认为false
     generate-ddl: true
@@ -44,7 +44,7 @@ spring:
   profiles: test
   # 指定当前微服务对外暴露的名称
   application:
-    name: abcmsc-provider-depart
+    name: depart-provider
 
   # 配置spring-data-jpa
   jpa:
