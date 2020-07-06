@@ -25,9 +25,9 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql:///test?useUnicode=true&amp;characterEncoding=utf8
+    url: jdbc:mysql://centos:33306/springboot?useUnicode=true&characterEncoding=utf8
     username: root
-    password: 111
+    password: root
 
 eureka:
   # 指定eureka服务中心
